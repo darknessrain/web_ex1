@@ -1,0 +1,175 @@
+
+
+.navbtm-deco
+{
+    min-height: 5em;
+    height: 10em;
+    width: 100%;
+}
+
+.slideshow
+{
+    margin-bottom: 5em;
+}
+
+/*  How It works - Bullet Point Style    */
+
+h1
+{
+    text-align: left;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 3em;
+    color: #8c8c8c;
+}
+
+.section-how-it-work h1
+{
+    margin-top: 2em;
+}
+
+.section-how-it-work h4
+{
+    text-align: left;
+}
+
+.section-how-it-work h6
+{
+    text-align: left;
+}
+
+.section-divider div h1
+{
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+@media screen and (min-width:900px) and (min-width:400px)
+{
+    .howtoinstall-skt-usage
+    {
+        background-image: url('../images/skt_bg.jpg');
+        background-size: cover;
+        min-height: 50em;
+    }
+}
+/*
+@media screen and (min-width:400px)
+{
+    .howtoinstall-skt-usage
+    {
+        background-image: url('../images/skt_bg_xs.jpg');
+        background-size: cover;
+        height: 50em;
+    }
+}
+
+@media screen and (min-width:700px)
+{
+    .howtoinstall-skt-usage
+    {
+        background-image: url('../images/skt_bg_md.jpg');
+        background-size: cover;
+        height: 50em;
+    }
+}
+*/
+
+.howtoinstall-skt-usage h1
+{
+    margin-top: 3em;
+    margin-left: 3em;
+    color: #676553;
+}
+
+.howtoinstall-skt-usage h4
+{
+    color: #676553;
+    margin-top: 0.5em;
+    margin-left: 5em;
+}
+
+.wireplug{
+
+	margin-top: 10em;
+}
+/*
+.wireplug h1{
+
+	margin-left: 5em;
+}
+
+.wireplug p{
+
+	margin-left: 5em;
+} */
+
+.wireinstall-overall{
+	margin-top: 5em;
+	background-image: url('../images/bg_wire_overall.jpg');
+	background-size: cover;
+	height: 50em;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.wireinstall-img{
+	margin-top: 6em;
+}
+
+.support-skt{
+	margin-top: 5em;
+	background-image: url('../components/PineBlocks/assets/img/bg/19.jpg');
+	background-size: cover;
+	min-height: 50em;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.support-skt-img{
+
+  	margin-top: 10em;
+}
+
+
+.spectable
+{
+    margin-left: 7em;
+		margin-right: 3em;
+}
+
+.specimg360
+{
+		margin-bottom: 5em;
+}
+
+
+
+.qrcode-download{
+
+
+
+}
+
+.support-skt div h4{
+  color:#cbe0e4;
+  text-align: center;
+}
+
+.support-skt span h6{
+  color:#27b0cc;
+  text-align: center;
+}
+
+
+.iOSqrcode-img{
+  margin-top: 10em;
+  height: 20%;
+  width: 20%;
+}
+
+.and-qrcode-img{
+  height: 20%;
+  width: 20%;
+}
