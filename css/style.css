@@ -109,9 +109,15 @@ h1
 }
 
 .pcstick-product-img{
-margin-left: 10em;
+/*margin-left: 10em;
   height: 40em;
-  width: 30em;
+  width: 30em;*/
+}
+
+
+/* Product Picture for Mobile  */
+.specimg_mobile{
+   display: none;
 }
 
 /* 360 picture */
@@ -163,6 +169,9 @@ margin-left: 10em;
 
 
 @media (max-width: 767px) {
+
+
+
   .howtoinstall-skt-usage
   {
       background-image: url('../images/skt_bg_md.jpg');
@@ -184,6 +193,17 @@ margin-left: 10em;
       margin-top: 0.5em;
       margin-left: 1.8em;
       padding-bottom: 10em;
+  }
+
+
+  .specimg_mobile{
+     display:block;
+     width:11em;
+     margin-bottom: 5em;
+
+  }
+  .specimg360 {
+    display: none;
   }
 
   .spectable
@@ -226,9 +246,24 @@ margin-left: 10em;
       background-repeat: no-repeat;
 
   }
+
+  .specimg_mobile{
+     display:block;
+     width:11em;
+     margin-bottom: 5em;
+
+  }
+  .specimg360 {
+    display: none;
+
+  }
+
 }
 
 @media (max-width: 480px) {
+
+
+
   .howtoinstall-skt-usage
   {
       background-image: url('../images/skt_bg_xs.jpg');
@@ -262,11 +297,20 @@ margin-left: 10em;
       padding-bottom: 10em;
   }
 
+  .specimg_mobile{
+     display:block;
+     width:10em;
+    margin-bottom: 3em;
+  }
 
+.specimg360 {
+  display: none;
+}
   .spectable
   {
       margin-left: 1.2em;
       margin-right: 3em;
+
   }
 }
 
