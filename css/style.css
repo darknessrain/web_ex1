@@ -97,7 +97,7 @@ h1
     background-size: cover;
     min-height: 50em;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 
 .support-skt-img
