@@ -100,18 +100,38 @@ h1
     /*background-attachment: fixed;*/
 }
 
+
+
+
 .support-skt-img
 {
     margin-top: 10em;
 }
 
+.pcstick-product-img{
+margin-left: 10em;
+  height: 40em;
+  width: 30em;
+}
 
-
+/* 360 picture */
 .specimg360
 {
     margin-bottom: 5em;
 }
 
+.PIC360{display:none;overflow:hidden;}
+.PIC360 UL,.PIC360 LI{margin:0; padding:0;}
+.PIC360 LI{list-style:none;}
+
+.PIC360{
+  margin-top: 2em;
+  margin-left: 15em;
+
+
+}
+
+/* QR code */
 .qrcode-download
 {
 }
@@ -381,8 +401,13 @@ h1
 
 }
 
+.video-position{
+  margin:auto;
+}
+
 .videoview {
   min-width:100%;
   min-height: 30em;
-  text-align: center;
+  margin: auto;
+
 }
