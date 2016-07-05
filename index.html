@@ -295,22 +295,32 @@
             <div class="container">
                 <div class="row">
                     <!-- Table for Spec -->
-                    <div class="center-block specimg_mobile">
-                        <img class="img-responsive pcstick-product-img " src="images/spec_product360_preview_lg.png" alt="" />
-                    </div>
-                    <div class="col-md-5 col-xs-12 img-center specimg360">
-                        <div class="PIC360">
-                            <ul>
-                                <li>
-                                    <img height="400px" width="139" src="images/product360/pcstick1.jpg" />
-                                </li>
-                                <li>
-                                    <img height="400px" width="139" src="images/product360/pcstick2.jpg" />
-                                </li>
-                                <li>
-                                    <img height="400px" width="139" src="images/product360/pcstick3.jpg" />
-                                </li>
-                            </ul>
+                    <div class="col-md-5 col-xs-12 center-block">
+                        <div class="center-block specimg_mobile">
+                            <img class="img-responsive pcstick-product-img " src="images/spec_product360_preview_lg.png" alt="" />
+                        </div>
+
+                        <div >
+
+
+                          <canvas class="center-block specimg360" id='canvas' width="200" height="512"></canvas>
+                          <img class="eql360icon_css" src="images/eql360icon_s.png" alt="" />
+
+
+
+                          <!--<div class="PIC360">
+                              <ul>
+                                  <li>
+                                      <img height="400px" width="139" src="images/product360/pcstick1.jpg" />
+                                  </li>
+                                  <li>
+                                      <img height="400px" width="139" src="images/product360/pcstick2.jpg" />
+                                  </li>
+                                  <li>
+                                      <img height="400px" width="139" src="images/product360/pcstick3.jpg" />
+                                  </li>
+                              </ul>
+                          </div>-->
                         </div>
                     </div>
                     <div class="table-responsive col-md-5 col-xs-12 spectable">
@@ -532,6 +542,9 @@
         <script type="text/javascript" src="components/PineBlocks/assets/js/one.app.js"></script>
         <script type="text/javascript" src="components/PineBlocks/assets/js/plugins/owl-carousel.js"></script>
         <!--<script src="js/jquery-1.4.4.js"></script>-->
-        <script src="js/pic360-1.0.0.js"></script>
+        <!--<script src="js/pic360-1.0.0.js"></script>-->
+
+        <script type="text/javascript" src="http://code.createjs.com/easeljs-0.6.0.min.js"></script>
+        <script src="js/canvas360.js" charset="utf-8"></script>
     </body>
 </html>
