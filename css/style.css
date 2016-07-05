@@ -120,13 +120,27 @@ h1
    display: none;
 }
 
+/*   360 icon*/
+.eql360icon_css{
+  width: 50px;
+  height: 44px;
+  margin-left: 6em;
+  margin-bottom: 5em;
+  position: relative;
+  margin-top: -10em;
+
+}
+
+
 /* 360 picture */
 .specimg360
 {
     margin-bottom: 5em;
+    min-height: 20em;
+
 }
 
-.PIC360{display:none;overflow:hidden;}
+/*.PIC360{display:none;overflow:hidden;}
 .PIC360 UL,.PIC360 LI{margin:0; padding:0;}
 .PIC360 LI{list-style:none;}
 
@@ -135,7 +149,7 @@ h1
   margin-left: 15em;
 
 
-}
+}*/
 
 /* QR code */
 .qrcode-download
@@ -196,14 +210,17 @@ h1
   }
 
 
-  .specimg_mobile{
+  /*.specimg_mobile{
      display:block;
      width:11em;
      margin-bottom: 5em;
 
-  }
+  }*/
   .specimg360 {
-    display: none;
+    display:block;
+    width:11em;
+    margin-bottom: 5em;
+
   }
 
   .spectable
@@ -248,13 +265,14 @@ h1
   }
 
   .specimg_mobile{
-     display:block;
-     width:11em;
-     margin-bottom: 5em;
+     display: none;
+
 
   }
   .specimg360 {
-    display: none;
+    display:block;
+    width:11em;
+    margin-bottom: 5em;
 
   }
 
@@ -310,6 +328,11 @@ h1
   {
       margin-left: 1.2em;
       margin-right: 3em;
+
+  }
+
+  .eql360icon_css{
+  display: none;
 
   }
 }
