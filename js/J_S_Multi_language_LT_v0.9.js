@@ -21,17 +21,24 @@
 function chg_lang(lang_index){
 
 
+			//更改標題文字
+      changeWebTitle(lang_index);
+
+      //更改BODY 語系標籤
+      changeCSSTag_Multi_Lang(lang_index);
+      //更改Navbar文件
+      changeNavBarUIWording(lang_index);
+
+
       //讀外部JSON檔案
       var xmlhttp = new XMLHttpRequest();
-      var url = "js/EQL_multi_lang_file.json";
-      console.log(url);
+      var url = "EQL_multi_lang_file.txt";
 
       xmlhttp.onreadystatechange = function() {
       if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
           var myArr = JSON.parse(xmlhttp.responseText);
-          //變更多語系網頁Title
-          document.getElementsByTagName("lang_title")[0].innerHTML = arr[lang_index].lang_title;
-          changeAllUIWording(myArr,lang_index);
+          console.log(myarr);
+          changeAllNavBarUIWording(myArr,lang_index);
           }
       };
       xmlhttp.open("GET", url, true);
@@ -39,12 +46,16 @@ function chg_lang(lang_index){
 
 
 
-      //更改BODY 語系標籤
-      changeCSSTag_Multi_Lang(lang_index);
-
 		}
 
+//主要功能1 : Multi-lang Title 根據 on_click 事件切換網頁標題
+function changeWebTitle(lang_index){
+      //變更多語系網頁Title
+      document.getElementsByTagName("title")[0].innerHTML = Multi_Lang_Title[lang_index];
+      return;
 
+
+}
 
 //主要功能2 : 賦予Body 語系標籤，例如 TW,ENG,JP。以便讓不同的CSS樣式來切換背景圖片
 function changeCSSTag_Multi_Lang(lang_index){
@@ -57,15 +68,24 @@ function changeCSSTag_Multi_Lang(lang_index){
     return;
 }
 
+//主要功能3 : 使用DOM方法，更換下拉&Navbar顯示介面
+function changeNavBarUIWording(lang_index){
 
+  //更改Drondown UI 語系顯示
+  //document.getElementById('lang_btn_1').innerHTML = Multi_Lang_Wording[lang_index];
 
-function changeAllUIWording(arr,lang_index){
-
-
-  //更改Navbar文件
   document.getElementById('change_dropdown_title').innerHTML =  Multi_Lang_Wording[lang_index]+'<b class="caret"></b>';
 
-  //更改內文
+  return;
+}
+
+function changeAllNavBarUIWording(arr,lang_index){
+/*
+  document.getElementById('nav_link1_wording').innerHTML = arr[lang_index].NavLink1;
+  document.getElementById('nav_link2_wording').innerHTML = arr[lang_index].NavLink2;
+  document.getElementById('nav_link3_wording').innerHTML = arr[lang_index].NavLink3;
+  document.getElementById('nav_link4_wording').innerHTML = arr[lang_index].NavLink4;
+  document.getElementById('nav_link5_wording').innerHTML = arr[lang_index].NavLink5;*/
 
   document.getElementById('lang_navlink1').innerHTML = arr[lang_index].lang_navlink1;
   document.getElementById('lang_navlink2').innerHTML = arr[lang_index].lang_navlink2;
@@ -133,8 +153,10 @@ function changeAllUIWording(arr,lang_index){
   document.getElementById('lang_footer_seenenough').innerHTML = arr[lang_index].lang_footer_seenenough;
   document.getElementById('lang_footer_buy').innerHTML = arr[lang_index].lang_footer_buy;
 
+
   return;
 }
+
 
 
 
@@ -180,6 +202,13 @@ Multi_Lang_Wording = new Array();
 Multi_Lang_Wording[0]="TW - 繁體中文";
 Multi_Lang_Wording[1]="EN - English";
 Multi_Lang_Wording[2]="JP - 日本語";
+
+
+//多語系網頁Title招呼語 (顯示在瀏覽TAB上)
+Multi_Lang_Title= new Array();
+Multi_Lang_Title[0]="歡迎來到EQL - PC Stick網站";
+Multi_Lang_Title[1]="Welcome to EQL - PC Stick";
+Multi_Lang_Title[2]="EQLへようこそ - PC Stick";
 
 
 //=====文字儲存區 END======
