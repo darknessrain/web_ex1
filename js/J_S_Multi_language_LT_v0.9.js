@@ -112,6 +112,8 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_easy2use_cont').innerHTML = arr[lang_index].lang_easy2use_cont;
   document.getElementById('lang_howtoinstall_tl').innerHTML = arr[lang_index].lang_howtoinstall_tl;
   document.getElementById('lang_howtoinstall_cont').innerHTML = arr[lang_index].lang_howtoinstall_cont;
+  document.getElementById('lang_wireinstall_tl').innerHTML = arr[lang_index].lang_wireinstall_tl;
+  document.getElementById('lang_wireinstall_cont').innerHTML = arr[lang_index].lang_wireinstall_cont;
   document.getElementById('lang_Pdt_spec').innerHTML = arr[lang_index].lang_Pdt_spec;
   document.getElementById('lang_spec_item').innerHTML = arr[lang_index].lang_spec_item;
   document.getElementById('lang_spec_descr').innerHTML = arr[lang_index].lang_spec_descr;
