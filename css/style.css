@@ -1,5 +1,5 @@
 
-
+/* Color EQL VI*/
 .navbtm-deco
 {
     min-height: 5em;
@@ -13,6 +13,23 @@
 .slideshow
 {
     margin-bottom: 5em;
+}
+
+/* for banner text only*/
+.slideshow_banner1{
+    /*font-size: 185%;*/
+    margin-left: 50%;
+    margin-top: -52%;
+    color: rgb(69, 70, 70);
+    /*min-width: 18em;*/
+}
+
+.slideshow_banner2{
+  /*font-size: 3em;*/
+  margin-left: 18%;
+  margin-top: -37%;
+  color: rgb(117, 115, 115);
+  /*min-width: 12em;*/
 }
 
 /*  How It works - Bullet Point Style    */
@@ -137,7 +154,7 @@ h1
 {
     margin-bottom: 5em;
     min-height: 20em;
-
+    background-image: url('../images/360ex/360_1.jpg');
 }
 
 /*.PIC360{display:none;overflow:hidden;}
@@ -217,15 +234,16 @@ h1
 
   }*/
   .specimg360 {
-    display:block;
-    width:11em;
-    margin-bottom: 5em;
 
+    background-image: url('../images/360ex/360_1.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
   }
 
   .spectable
   {
-      margin-left: 1.2em;
+      margin-left: 0em;
       margin-right: 3em;
   }
 
@@ -233,6 +251,16 @@ h1
   {
       margin-top: 4em;
       background-image: url('../images/pc_stick_wire_install_scenario_md_f.jpg');
+      background-size: cover;
+      min-height: 36em;
+      background-repeat: no-repeat;
+
+  }
+
+  .tw .wireinstall-overall
+  {
+      margin-top: 4em;
+      background-image: url('../images/pc_stick_wire_install_scenario_md_fc.jpg');
       background-size: cover;
       min-height: 36em;
       background-repeat: no-repeat;
@@ -264,6 +292,16 @@ h1
 
   }
 
+  .tw .wireinstall-overall
+  {
+      margin-top: 4em;
+      background-image: url('../images/pc_stick_wire_install_scenario_md_f.jpg');
+      background-size: cover;
+      min-height: 28em;
+      background-repeat: no-repeat;
+
+  }
+
   .specimg_mobile{
      display: none;
 
@@ -271,9 +309,13 @@ h1
   }
   .specimg360 {
     display:block;
-    width:11em;
-    margin-bottom: 5em;
-
+    /*width:9em;*/
+    /*margin-bottom: 5em;*/
+    background-image: url('../images/360ex/360_1.jpg');
+    background-image: url('../images/360ex/360_1.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
   }
 
 }
@@ -293,6 +335,16 @@ h1
   {
       margin-top: 5em;
       background-image: url('../images/pc_stick_wire_install_scenario_xs_f.jpg');
+      background-size: cover;
+      min-height: 50em;
+      background-repeat: no-repeat;
+
+  }
+
+  .tw .wireinstall-overall
+  {
+      margin-top: 5em;
+      background-image: url('../images/pc_stick_wire_install_scenario_xs_fc.jpg');
       background-size: cover;
       min-height: 50em;
       background-repeat: no-repeat;
@@ -347,6 +399,16 @@ h1
       background-repeat: no-repeat;
 
   }
+
+  .tw .wireinstall-overall
+  {
+      margin-top: 5em;
+      background-image: url('../images/pc_stick_wire_install_scenario_xs_fc.jpg');
+      background-size: cover;
+      min-height: 40em;
+      background-repeat: no-repeat;
+
+  }
 }
 
 @media (max-width: 380px) {
@@ -355,6 +417,16 @@ h1
   {
       margin-top: 5em;
       background-image: url('../images/pc_stick_wire_install_scenario_xs_f.jpg');
+      background-size: cover;
+      min-height: 38em;
+      background-repeat: no-repeat;
+
+  }
+
+  .tw .wireinstall-overall
+  {
+      margin-top: 5em;
+      background-image: url('../images/pc_stick_wire_install_scenario_xs_fc.jpg');
       background-size: cover;
       min-height: 38em;
       background-repeat: no-repeat;
@@ -375,6 +447,17 @@ h1
   {
       margin-top: 5em;
       background-image: url('../images/pc_stick_wire_install_scenario_md_f.jpg');
+      background-size: cover;
+      min-width:100%;
+      height: 40em;
+      background-repeat: no-repeat;
+
+  }
+
+  .tw .wireinstall-overall
+  {
+      margin-top: 5em;
+      background-image: url('../images/pc_stick_wire_install_scenario_md_fc.jpg');
       background-size: cover;
       min-width:100%;
       height: 40em;
@@ -418,6 +501,16 @@ h1
 
   }
 
+  .tw .wireinstall-overall
+  {
+      margin-top: 5em;
+      background-image: url('../images/pc_stick_wire_install_scenario_HD_fc.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 38em;
+
+  }
+
   .howtoinstall-skt-usage h1
   {
       margin-top: 3em;
@@ -444,6 +537,16 @@ h1
       min-height: 46em;
 
   }
+
+  .tw .wireinstall-overall
+    {
+        margin-top: 5em;
+        background-image: url('../images/pc_stick_wire_install_scenario_HD_fc.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 46em;
+
+    }
 
   .howtoinstall-skt-usage h1
   {
