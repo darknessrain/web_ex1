@@ -169,7 +169,7 @@ function detectUserLang(){
 
     switch (currentBrowserLang) {
       case "zh-tw":
-            callback:chg_lang(0);
+            chg_lang(0);
         break;
       case "zh-cn":
             chg_lang(0);
