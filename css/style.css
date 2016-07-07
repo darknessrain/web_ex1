@@ -1,3 +1,11 @@
+/* 引入中文字型 */
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
+.tw {
+  font-family: 'cwTeXHei', sans-serif;
+}
+
+
 /* Color EQL VI*/
 .navbtm-deco
 {
