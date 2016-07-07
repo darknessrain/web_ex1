@@ -32,7 +32,7 @@ function chg_lang(lang_index){
 
       //讀外部JSON檔案
       var xmlhttp = new XMLHttpRequest();
-      var url = "../js/EQL_multi_lang_file.json";
+      var url = "../js/mlang.txt";
 
       xmlhttp.onreadystatechange = function() {
       if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
