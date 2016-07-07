@@ -3,7 +3,7 @@
       "lang_title": "歡迎來到EQL - PC Stick網站",
       "lang_navlink1": "功能特色",
       "lang_navlink2": "產品安裝",
-      "lang_navlink3": "產引規格",
+      "lang_navlink3": "產品規格",
       "lang_navlink4": "支援",
       "lang_navlink5": "馬上購買",
       "lang_smartestpc": "小巧輕薄",
