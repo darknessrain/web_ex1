@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
 
 .tw {
-  font-family: 'cwTeXHei', sans-serif;
+  font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;
 }
 
 
@@ -47,6 +47,10 @@ h1
     font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;
     font-size: 3em;
     color: #8c8c8c;
+}
+
+h2 h3 h4 h5 h6 {
+    font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;
 }
 
 .section-how-it-work h1
