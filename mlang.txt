@@ -1,4 +1,4 @@
-[
+﻿[
    {
       "lang_title": "歡迎來到EQL - PC Stick網站",
       "lang_navlink1": "功能特色",
@@ -156,13 +156,13 @@
       "lang_SKT_cont": "Share pictures, videos and files from mobile device to TV or display",
       "lang_pluginfor": "Plug in for use",
       "lang_pluginfor_cont": "Simply plug PC stick into the HDMI port then transform any HDMI TV or display into a computer",
-      "lang_usb_comp": "USB Compatible",
-      "lang_usb_cont": "Stand USB connector is compatible with any stand accessories",
+      "lang_usb_comp": "USB 互換性",
+      "lang_usb_cont": "USBコネクタをスタンドしても、スタンドの付属品と互換性があります",
       "lang_sysrdy": "Windows® 10",
       "lang_sysrdy_cont": "Latest system is ready for you",
       "lang_easy2use": "Easy To Carry",
       "lang_easy2use_cont": "It's ultra light weight and pocket-size<br />fitting all your needs",
-      "lang_howtoinstall_tl": "To control, cellphone is all you need",
+      "lang_howtoinstall_tl": "コントロールに、携帯電話は、あなたが必要とするすべてであります",
       "lang_howtoinstall_cont": "Mouse gesture and text input<br />Media streaming (music, photos, youtube…)",
       "lang_wireinstall_tl": "Just plug in and use it right away",
       "lang_wireinstall_cont": "Dual usage , you can directly plug into your monitor / TV /Projector. Or simply extend by HDMI cable.",
