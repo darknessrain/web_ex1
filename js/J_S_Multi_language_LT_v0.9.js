@@ -183,7 +183,7 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_iOS_ver').innerHTML = arr[lang_index].lang_iOS_ver;
   document.getElementById('lang_Android_tl').innerHTML = arr[lang_index].lang_Android_tl;
   document.getElementById('lang_Android_ver').innerHTML = arr[lang_index].lang_Android_ver;
-  document.getElementById('lang_footer_slogan').innerHTML = arr[lang_index].lang_footer_slogan;
+/*  document.getElementById('lang_footer_slogan').innerHTML = arr[lang_index].lang_footer_slogan;
   document.getElementById('lang_footer_subtitle').innerHTML = arr[lang_index].lang_footer_subtitle;
   document.getElementById('lang_footer_contactmail').innerHTML = arr[lang_index].lang_footer_contactmail;
   document.getElementById('lang_footer_shortcuts').innerHTML = arr[lang_index].lang_footer_shortcuts;
@@ -197,7 +197,7 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_footer_FAQ').innerHTML = arr[lang_index].lang_footer_FAQ;
   document.getElementById('lang_footer_contactus').innerHTML = arr[lang_index].lang_footer_contactus;
   document.getElementById('lang_footer_seenenough').innerHTML = arr[lang_index].lang_footer_seenenough;
-  document.getElementById('lang_footer_buy').innerHTML = arr[lang_index].lang_footer_buy;
+  document.getElementById('lang_footer_buy').innerHTML = arr[lang_index].lang_footer_buy;*/
 
 
   return;
