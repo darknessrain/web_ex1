@@ -5,6 +5,7 @@
 //主要功能2 : 賦予Body 語系標籤，例如 TW,ENG,JP。以便讓不同的CSS樣式來切換背景圖片、甚至文字
 //主要功能3 : 使用DOM方法，更換下拉顯示介面, 須掛入JSON資源文件檔
 //主要功能4 : 使用DOM方法，依照語系更改文件內的文字
+//主要功能5 : 使用DOM方法，依照語系更換對應的Image
 
 // 其他功能a (HTML) : 自動偵測瀏覽器語言，更改語言預設值。
 
@@ -28,6 +29,8 @@ function chg_lang(lang_index){
       changeCSSTag_Multi_Lang(lang_index);
       //更改Navbar文件
       changeNavBarUIWording(lang_index);
+      //根據語系更改圖片
+      changeImageByLang(lang_index);
 
 
       //讀外部JSON檔案
@@ -81,13 +84,52 @@ function changeNavBarUIWording(lang_index){
   return;
 }
 
+
+// 根據lang_index更換IMG標籤圖片
+
+function changeImageByLang(lang_index){
+
+  // 圖片路徑 請自行更換，不夠用也可以自己新增
+  console.log("change image function start now");
+  var tw_img1_src="images/slider_example_1_cht.jp";
+  var eng_img1_src="images/slider_example_1_eng.jpg";
+  var jp_img1_src="images/slider_example_1_jp.jpg";
+
+  var tw_img2_src="images/slider_example_2_cht.jpg";
+  var eng_img2_src="images/slider_example_2_eng.jpg";
+  var jp_img2_src="images/slider_example_2_jp.jpg";
+
+  var tw_img3_src="images/slider_example_3_tw.jpg";
+  var eng_img3_src="images/slider_example_3_eng.jpg";
+  var jp_img3_src="images/slider_example_3_jp.jpg";
+
+  switch (lang_index) {
+    case 0:
+        document.getElementById('slideshowImage1').src=tw_img1_src;
+        document.getElementById('slideshowImage2').src=tw_img2_src;
+        console.log("change image to CHT version");
+      break;
+    case 1:
+        document.getElementById('slideshowImage1').src=eng_img1_src;
+        document.getElementById('slideshowImage2').src=eng_img2_src;
+        console.log("change image to ENG version");
+      break;
+    case 2:
+        document.getElementById('slideshowImage1').src=jp_img1_src;
+        document.getElementById('slideshowImage2').src=jp_img2_src;
+        console.log("change image to JP version");
+      break;
+    default:
+
+  }
+
+
+}
+
+
+
+// 根據語系更改所有文字
 function changeAllNavBarUIWording(arr,lang_index){
-/*
-  document.getElementById('nav_link1_wording').innerHTML = arr[lang_index].NavLink1;
-  document.getElementById('nav_link2_wording').innerHTML = arr[lang_index].NavLink2;
-  document.getElementById('nav_link3_wording').innerHTML = arr[lang_index].NavLink3;
-  document.getElementById('nav_link4_wording').innerHTML = arr[lang_index].NavLink4;
-  document.getElementById('nav_link5_wording').innerHTML = arr[lang_index].NavLink5;*/
 
   document.getElementById('lang_navlink1').innerHTML = arr[lang_index].lang_navlink1;
   document.getElementById('lang_navlink2').innerHTML = arr[lang_index].lang_navlink2;
