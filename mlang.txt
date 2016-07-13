@@ -1,5 +1,5 @@
 ﻿[
-    {
+   {
       "lang_title": "歡迎來到EQL - PC Stick網站",
       "lang_navlink1": "功能特色",
       "lang_navlink2": "產品安裝",
@@ -48,28 +48,13 @@
       "lang_spec_dim": "產品尺寸",
       "lang_spec_dim_cont": "38mm(W) x 100mm(L) x 9.8mm(H)",
       "lang_Suport": "下載支援",
-      "lang_Share_media": "<br />給您更方便的方式來分享影音媒體",
+      "lang_Share_media": " <br />給您更方便的方式來分享影音媒體",
       "lang_iOS_tl": "iOS 裝置請至 APP Store 下載",
       "lang_iOS_ver": "Required iOS 8.0 or 8.0+ version",
-      "lang_Android_tl": "<br />Android 裝置請至 Google Play 商店下載",
-      "lang_Android_ver": "最低需求 Android 4.0 or 4.0+ version",
-      "lang_footer_slogan": "Smart Life, Smart Living",
-      "lang_footer_subtitle": "EQL brings you an easier and smarter lifestyle",
-      "lang_footer_contactmail": "Contact Us:",
-      "lang_footer_shortcuts": "快速連結",
-      "lang_footer_EQLs": "EQL",
-      "lang_footer_Homie": "Homie",
-      "lang_footer_ripple": "Ripple",
-      "lang_footer_essence": "Essence",
-      "lang_footer_pcstick": "PC Stick",
-      "lang_footer_service": "服務管道",
-      "lang_footer_shop": "線上商店",
-      "lang_footer_FAQ": "FAQ常見問答",
-      "lang_footer_contactus": "聯絡我們",
-      "lang_footer_seenenough": "瀏覽的如何?",
-      "lang_footer_buy": "馬上購買"
-    },
-    {
+      "lang_Android_tl": " <br />Android 裝置請至 Google Play 商店下載",
+      "lang_Android_ver": "最低需求 Android 4.0 or 4.0+ version"
+   },
+   {
       "lang_title": "Welcome to EQL - PC Stick",
       "lang_navlink1": "Features",
       "lang_navlink2": "How It Works",
@@ -118,28 +103,13 @@
       "lang_spec_dim": "Dimension",
       "lang_spec_dim_cont": "38mm(W) x 100mm(L) x 9.8mm(H)",
       "lang_Suport": "Support",
-      "lang_Share_media": "<br />Sharing Media Should Be Easy",
+      "lang_Share_media": " <br />Sharing Media Should Be Easy",
       "lang_iOS_tl": "Available on iOS / APP Store",
       "lang_iOS_ver": "Required iOS 8.0 or 8.0+ version",
-      "lang_Android_tl": "<br />Available on Android / Google Play",
-      "lang_Android_ver": "Required Android 4.0 or 4.0+ version",
-      "lang_footer_slogan": "Smart Life, Smart Living",
-      "lang_footer_subtitle": "EQL brings you an easier and smarter lifestyle",
-      "lang_footer_contactmail": "Contact Us:",
-      "lang_footer_shortcuts": "Shortcuts",
-      "lang_footer_EQLs": "EQL",
-      "lang_footer_Homie": "Homie",
-      "lang_footer_ripple": "Ripple",
-      "lang_footer_essence": "Essence",
-      "lang_footer_pcstick": "PC Stick",
-      "lang_footer_service": "Service",
-      "lang_footer_shop": "Online Shop",
-      "lang_footer_FAQ": "FAQ",
-      "lang_footer_contactus": "Contact Us",
-      "lang_footer_seenenough": "Seen Enough?",
-      "lang_footer_buy": "Buy Now"
-    },
-    {
+      "lang_Android_tl": " <br />Available on Android / Google Play",
+      "lang_Android_ver": "Required Android 4.0 or 4.0+ version"
+   },
+   {
       "lang_title": "EQLへようこそ - PC Stick",
       "lang_navlink1": "使い方",
       "lang_navlink2": "インストール",
@@ -188,25 +158,10 @@
       "lang_spec_dim": "Dimension",
       "lang_spec_dim_cont": "38mm(W) x 100mm(L) x 9.8mm(H)",
       "lang_Suport": "Support",
-      "lang_Share_media": "<br />Sharing Media Should Be Easy",
+      "lang_Share_media": " <br />Sharing Media Should Be Easy",
       "lang_iOS_tl": "Available on iOS / APP Store",
       "lang_iOS_ver": "Required iOS 8.0 or 8.0+ version",
-      "lang_Android_tl": "<br />Available on Android / Google Play",
-      "lang_Android_ver": "Required Android 4.0 or 4.0+ version",
-      "lang_footer_slogan": "Smart Life, Smart Living",
-      "lang_footer_subtitle": "EQL brings you an easier and smarter lifestyle",
-      "lang_footer_contactmail": "Contact Us:",
-      "lang_footer_shortcuts": "Shortcuts",
-      "lang_footer_EQLs": "EQL",
-      "lang_footer_Homie": "Homie",
-      "lang_footer_ripple": "Ripple",
-      "lang_footer_essence": "Essence",
-      "lang_footer_pcstick": "PC Stick",
-      "lang_footer_service": "Service",
-      "lang_footer_shop": "Online Shop",
-      "lang_footer_FAQ": "FAQ",
-      "lang_footer_contactus": "Contact Us",
-      "lang_footer_seenenough": "Seen Enough?",
-      "lang_footer_buy": "Buy Now"
-    }
-  ]
+      "lang_Android_tl": " <br />Available on Android / Google Play",
+      "lang_Android_ver": "Required Android 4.0 or 4.0+ version"
+   }
+]
