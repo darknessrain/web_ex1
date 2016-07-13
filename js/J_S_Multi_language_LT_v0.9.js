@@ -91,7 +91,7 @@ function changeImageByLang(lang_index){
 
   // 圖片路徑 請自行更換，不夠用也可以自己新增
   console.log("change image function start now");
-  var tw_img1_src="images/slider_example_1_cht.jp";
+  var tw_img1_src="images/slider_example_1_cht.jpg";
   var eng_img1_src="images/slider_example_1_eng.jpg";
   var jp_img1_src="images/slider_example_1_jp.jpg";
 
