@@ -100,13 +100,13 @@ html, body {
 		max-height:100%;
 	}
 
-	/*@media (max-width:768px){
+@media (max-width:768px){
 		.carousel-inner {
 			min-height:440px;
 			display:block;
 		}
 		.carousel-inner img {
-			min-height:440px;
+			min-height:370px;
 			min-width:900px;
 			overflow:hidden;
 			margin-left:-10%;
@@ -118,7 +118,7 @@ html, body {
 			margin-left:-50%;
 		}
 	}
-*/
+
 
 .carousel-control.left {
 	background:url(../images/arrow_left.png) center no-repeat !important;
