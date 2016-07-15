@@ -1,11 +1,14 @@
-﻿[
+[
     {
+      "undefined": "中文",
       "lang_title": "歡迎來到EQL - PC Stick網站",
       "lang_navlink1": "功能特色",
       "lang_navlink2": "產品安裝",
       "lang_navlink3": "產品規格",
       "lang_navlink4": "支援",
       "lang_navlink5": "馬上購買",
+      "lang_navcht": "TW - 繁體中文",
+      "lang_naveng": "EN - 英文",
       "lang_smartestpc": "小巧輕薄",
       "lang_smartestpc_cont": "11cm長與9.8mm厚的機身，是世上最小的Windows OS裝置",
       "lang_pcperformance": "電腦效能",
@@ -55,12 +58,15 @@
       "lang_Android_ver": "最低需求 Android 4.0 or 4.0+ 版本"
     },
     {
+      "undefined": "英文",
       "lang_title": "Welcome to EQL - PC Stick",
       "lang_navlink1": "Features",
       "lang_navlink2": "How It Works",
       "lang_navlink3": "Tech Spec",
       "lang_navlink4": "Support",
       "lang_navlink5": "BuyNow",
+      "lang_navcht": "TW - Traditional Chinese",
+      "lang_naveng": "EN - English",
       "lang_smartestpc": "The Smallest PC",
       "lang_smartestpc_cont": "A pocket-size PC only 11 cm long and 9.8mm thick",
       "lang_pcperformance": "Small but Powerful",
@@ -110,12 +116,15 @@
       "lang_Android_ver": "Support Android 4.0 or later"
     },
     {
+      "undefined": "日文",
       "lang_title": "EQLへようこそ - PC Stick",
       "lang_navlink1": "使い方",
       "lang_navlink2": "インストール",
       "lang_navlink3": "仕様",
       "lang_navlink4": "サポート",
       "lang_navlink5": "購入",
+      "lang_navcht": "TW- 繁體中國語",
+      "lang_naveng": "EN - 英文",
       "lang_smartestpc": "The Smallest PC",
       "lang_smartestpc_cont": "A pocket-size PC only 11 cm long and 9.8mm thick",
       "lang_pcperformance": "PC Performance",
