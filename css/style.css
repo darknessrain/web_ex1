@@ -1,7 +1,7 @@
 /* 引入中文字型 */
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
 
-.tw {
+.tw body {
   font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;
 }
 
