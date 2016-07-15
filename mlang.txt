@@ -9,7 +9,7 @@
       "lang_smartestpc": "小巧輕薄",
       "lang_smartestpc_cont": "11cm長與9.8mm厚的機身，是世上最小的Windows OS裝置",
       "lang_pcperformance": "電腦效能",
-      "lang_pcperformance_cont": "搭配四核心 Intel® AtomTM 處理器，運算效能和繪圖能力大升級。",
+      "lang_pcperformance_cont": "搭配四核心 Intel® Atom™ 處理器，運算效能和繪圖能力大升級。",
       "lang_HDMI": "HDMI CEC功能",
       "lang_HDMI_cont": "當PC Stick連接上 CEC 相容的電視或外部螢幕時，可與電視或外部螢幕同步開關機(僅限於支援HDMI CEC的螢幕/電視/投影機)。\r\n",
       "lang_SKT": "ShareKanTan",
@@ -50,9 +50,9 @@
       "lang_Suport": "下載支援",
       "lang_Share_media": "<br /> 易分享 多媒體檔案串流分享軟體",
       "lang_iOS_tl": "iOS 裝置請至 APP Store 下載",
-      "lang_iOS_ver": "Required iOS 8.0 or 8.0+ version",
+      "lang_iOS_ver": "最低需求 iOS 8.0 or 8.0+ 版本",
       "lang_Android_tl": "<br />Android 裝置請至 Google Play 商店下載",
-      "lang_Android_ver": "最低需求 Android 4.0 or 4.0+ version"
+      "lang_Android_ver": "最低需求 Android 4.0 or 4.0+ 版本"
     },
     {
       "lang_title": "Welcome to EQL - PC Stick",
