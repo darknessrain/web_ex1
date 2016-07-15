@@ -1,9 +1,14 @@
+/* 引入中文字型 */
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
 
+.tw {
+  font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;
+}
 
 /* EQL Template_last updated 2016-06-22 */
 
 html, body {
-	font-family: 'Palanquin', sans-serif;
+	font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;
 }
 
 
@@ -100,13 +105,13 @@ html, body {
 		max-height:100%;
 	}
 
-@media (max-width:768px){
+	@media (max-width:768px){
 		.carousel-inner {
 			min-height:440px;
 			display:block;
 		}
 		.carousel-inner img {
-			min-height:370px;
+			min-height:440px;
 			min-width:900px;
 			overflow:hidden;
 			margin-left:-10%;
@@ -273,13 +278,19 @@ html, body {
 		  -o-transition:opacity 0.3s;
 	  }
 
+    .copyright p{
+                    text-align: center;
+                    color: #999;
+                    font-size:13px;
+                    letter-spacing: 0.5px;
+                    }
+    .snBtn {
+                    width:200px;
+                    height: 20px;
+                    margin-left:-50px;
+                    display: block;
+              }
 
-
-		.copyright p{
-			text-align: center;
-			color: #999;
-			font-size:16px;
-		}
 
 	/* Go Top button-----------------------------------------------------------*/
 
